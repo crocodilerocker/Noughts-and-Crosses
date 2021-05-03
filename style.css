@@ -164,6 +164,16 @@ body {
     top: 50px;
 }
 
-#startupForm label, input:not(#submit) {
+form {
+    text-align: center;
+}
+
+label, input:not(.submit) {
     font-size: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submit {
+    margin: 50px;
 }
