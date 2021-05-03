@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Noughts and Crosses</title>
+</head>
+<body>
+    <div class = "scores" id = "playerA"></div>
+    <div class = "scores" id = "playerB"></div>
+    <div class = "board" id = "board"> 
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class = "startup" id="startupForm">
+        <form>
+            Noughts<br>&<br>Crosses
+            <br>
+            <label for="playerAName">Player A Name: </label>
+            <input type="text" name="playerAName" id="playerAName" value=''><br>
+            <label for="playerBName">Player B Name: </label>
+            <input type="text" name = "playerBName" id = "playerBName" value=''><br>
+            <input type="button" id="submit" value="Play!"/>
+        </form>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+            <button id = "restartButton">Restart</button>
+        </div>
+    </div>
+</body>
+</html>
