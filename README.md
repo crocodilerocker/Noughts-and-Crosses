@@ -7,3 +7,5 @@ Followed YouTube instructional video from WebDevSimplified to create this, and a
 + Scoreboard at top right corner
 + Resized the O mark to match X
 + Personalised winning message
+
+In future, I would like to build on this project by implementing a minimax algorithm so the user can play against the computer.
